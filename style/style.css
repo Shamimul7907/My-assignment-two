@@ -1,0 +1,91 @@
+.plus-jakarta-sans{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav ul{
+  list-style: none;
+   
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+
+}
+nav ul li{
+  display: inline;
+ margin-right: 30px;
+ font-size: 16px;
+  
+}
+.item-1{
+  font-weight: bold;
+}
+.item-2,.item-3{
+  color: #8987A1;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-text{
+
+  
+}
+header span{
+  color:#E95A08
+}
+.banner h1{
+  font-weight: 600;
+  font-size: 60px;
+}
+.banner p{
+  color: #8987A1;
+}
+
+
+
+@media screen and (max-width:576px) {
+  .item-1,.item-2,.item-3{
+    display: none;
+    
+  }
+  nav{
+    margin:5px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul li{
+    align-items: center;
+    font-size: 25px;
+  }
+  nav ul{
+    align-items: center;
+  }
+.banner{
+  flex-direction: column-reverse;
+  
+}
+.banner-image{
+  width:100%
+
+}
+p{
+  width: 100%;
+}
+.banner-header{
+  font-size:30px;
+  font-weight: 300;
+}
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
