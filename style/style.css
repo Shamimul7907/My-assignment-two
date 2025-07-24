@@ -34,10 +34,7 @@ nav ul li{
   display: flex;
   justify-content: space-between;
 }
-.banner-text{
 
-  
-}
 header span{
   color:#E95A08
 }
@@ -47,6 +44,47 @@ header span{
 }
 .banner p{
   color: #8987A1;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+}
+button{
+  width: 270px;
+  height: 50px;
+  padding: 30px;
+  background-color: #E95A08;
+  margin-bottom: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+main h1{
+  font-size: 40px;
+  font-weight:600;
+  text-align: center;
+}
+main span{
+  color: #E95A08;
+}
+main p{
+  text-align: center;
+  color: #8987A1;
+}
+.plants-lover{
+  display: flex;
+  margin-top: 70px;
+  text-align: center;
+}
+.badge{
+margin-left: -100px;
+margin-top: -70px;
+}
+.plants-description li{
+  text-align:left;
+  color: #8987A1;
+
 }
 
 
@@ -72,7 +110,7 @@ header span{
   flex-direction: column-reverse;
   
 }
-.banner-image{
+.banner-image,{
   width:100%
 
 }
@@ -83,9 +121,22 @@ p{
   font-size:30px;
   font-weight: 300;
 }
+.card{
+grid-template-columns: repeat(2,1fr);
+column-gap: 10px;
+}
+main p{
+  text-align: center;
+  color: #8987A1;
+}
+.card{
+  width:20px
+}
+.plants-lover{
+  flex-wrap: wrap;
+}
+.badge{
+  display: none;
+}
 }
 
-.card{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-}
