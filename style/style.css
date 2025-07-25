@@ -33,6 +33,7 @@ nav ul li{
 .banner{
   display: flex;
   justify-content: space-between;
+  margin-top: 10%;
 }
 
 header span{
@@ -40,7 +41,7 @@ header span{
 }
 .banner h1{
   font-weight: 600;
-  font-size: 60px;
+  font-size: 2.25rem;
 }
 .banner p{
   color: #8987A1;
@@ -52,7 +53,7 @@ header span{
   text-align: center;
 }
 button{
-  width: 270px;
+  width: 270;
   height: 50px;
   padding: 30px;
   background-color: #E95A08;
@@ -61,7 +62,7 @@ button{
   color: aliceblue;
 }
 main h1{
-  font-size: 40px;
+  font-size: 2.25rem;
   font-weight:600;
   text-align: center;
 }
@@ -153,7 +154,7 @@ margin-top: -70px;
   margin-top: 15px;
 }
 .submission-header{
-  font-size:2.5rem;
+  font-size:20px;
   font-weight: 600;
 }
 .form{
@@ -203,13 +204,14 @@ margin-bottom: 20%;
     
   }
   nav{
-    margin:5px 0px 0px 0px;
+  
     align-items: center;
     justify-content: space-between;
   }
   nav ul li{
+    margin-right: -800px;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.25rem;
   }
   nav ul{
     align-items: center;
@@ -218,9 +220,12 @@ margin-bottom: 20%;
   flex-direction: column-reverse;
   
 }
-.banner-image,{
-  width:100%
-
+.banner p{
+  width: fit-content;
+}
+.banner-image{
+  width:100%;
+margin-left: 40%;
 }
 p{
   width: 100%;
@@ -236,14 +241,23 @@ column-gap: 10px;
 main p{
   text-align: center;
   color: #8987A1;
+  margin-left: 25%;
+}
+main h1{
+  text-align: center;
+  margin-left: 40%;
 }
 .card{
-  width:20px
+  width:10px;
 }
 .plants-lover{
   flex-wrap: wrap;
    
 }
+.plants-description {
+    margin-left: 20%;
+}
+
 .container{
   margin-bottom: 10%;
 }
@@ -253,19 +267,21 @@ main p{
 .leatest-deals{
   flex-wrap: wrap;
   text-align: center;
-  margin-left: 15%;
+  margin-left: 20%;
 
 }
+
 
 .img-card-2 img{
   width:380px;
 }
 .submission img{
-  width:100%;
+  width:65vh;
+  height: 40vh;
 }
 .submission-header{
-  font-size: 25px;
-  margin-bottom: 5%;
+   font-size:20px;
+   margin-left: 40px;
 }
 .login-1{
   position: absolute ;
@@ -284,15 +300,15 @@ main p{
 .login-3{
   position: absolute ;
   top: 70%;
-  left: 20%;
+  left: 30%;
   height: 11%;
-  width: 35%;
+  width: 55%;
   margin-top: 2%;
 }
 .login-4{
   position: absolute ;
   top: 70%;
-  left: 56%;
+  left: 87%;
   height: 12%;
   width: 25%;
   margin-top: 2%;
