@@ -75,6 +75,7 @@ main p{
 .plants-lover{
   display: flex;
   margin-top: 70px;
+  margin-left: 50px;
   text-align: center;
 }
 .badge{
@@ -86,8 +87,34 @@ margin-top: -70px;
   color: #8987A1;
 
 }
-
-
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login{
+  position: absolute ;
+  top: 60%;
+  left: 40%;
+  text-decoration: underline;
+}
+.container img{
+  border-radius: 20px;
+}
+.leatest-deals{
+  display: flex;
+  column-gap: 30px;
+  margin-left: 10%;
+}
 
 @media screen and (max-width:576px) {
   .item-1,.item-2,.item-3{
@@ -137,6 +164,14 @@ main p{
 }
 .badge{
   display: none;
+}
+.leatest-deals{
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 15%;
+}
+.img-card-2 img{
+  width: 380px;
 }
 }
 
