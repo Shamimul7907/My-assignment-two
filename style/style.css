@@ -87,7 +87,7 @@ margin-top: -70px;
   color: #8987A1;
 
 }
-.container{
+.container,.submission{
   position: relative;
   text-align: center;
   color: white;
@@ -95,17 +95,62 @@ margin-top: -70px;
   font-weight: 600;
   
 }
-.centered{
+.centered,.submission-header {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.centered-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 600;
 }
 .login{
   position: absolute ;
   top: 60%;
   left: 40%;
   text-decoration: underline;
+}
+.login-1{
+  position: absolute ;
+  top: 60%;
+  left: 40%;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+.login-3{
+  position: absolute ;
+  top: 60%;
+  left: 30%;
+  height: 10%;
+  width: 30%;
+  margin-top: 2%;
+}
+.login-4{
+  position: absolute ;
+  top: 60%;
+  left: 55%;
+  height: 11%;
+  width: 15%;
+  margin-top: 2%;
+  background-color: #E95A08;
+  color: aliceblue;
+  border: 0px solid;
+}
+.submission{
+  margin-top: 5;
+}
+.submission-header{
+  font-size:2.5rem;
+  font-weight: 600;
+}
+.form{
+  display: block;
 }
 .container img{
   border-radius: 20px;
@@ -115,6 +160,7 @@ margin-top: -70px;
   column-gap: 30px;
   margin-left: 10%;
 }
+
 
 @media screen and (max-width:576px) {
   .item-1,.item-2,.item-3{
@@ -161,6 +207,10 @@ main p{
 }
 .plants-lover{
   flex-wrap: wrap;
+   
+}
+.container{
+  margin-bottom: 10%;
 }
 .badge{
   display: none;
@@ -169,9 +219,51 @@ main p{
   flex-wrap: wrap;
   text-align: center;
   margin-left: 15%;
+
 }
+
 .img-card-2 img{
-  width: 380px;
+  width:380px;
+}
+.submission img{
+  width:100%;
+}
+.submission-header{
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+.login-1{
+  position: absolute ;
+  top: 60%;
+  left: 40%;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.centered-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 19px;
+}
+.login-3{
+  position: absolute ;
+  top: 70%;
+  left: 20%;
+  height: 11%;
+  width: 35%;
+  margin-top: 2%;
+}
+.login-4{
+  position: absolute ;
+  top: 70%;
+  left: 56%;
+  height: 12%;
+  width: 25%;
+  margin-top: 2%;
+  background-color: #E95A08;
+  color: aliceblue;
+  border: 0px solid;
 }
 }
 
